@@ -243,7 +243,7 @@ function Lighting() {
 export default function HeroScene3D() {
   return (
     <Canvas
-      camera={{ position: [0, 0, typeof window !== "undefined" && window.innerWidth < 768 ? 7.8 : 6], fov: 38 }}
+      camera={{ position: [0, 0, typeof window !== "undefined" && window.innerWidth < 768 ? 6.8 : 6], fov: 38 }}
       dpr={typeof window !== "undefined" && window.innerWidth < 768 ? [1, 1.5] : [1, 2]}
       frameloop="demand"
       performance={{ min: 0.6 }}
